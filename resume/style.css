@@ -1,0 +1,64 @@
+/* Header Layout: Photo on one side, Name on the other */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #555;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    object-fit: cover;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+/* Job/Education Entry: Title on left, Date on right */
+.job-entry, .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0;
+}
+
+.job-entry h3, .job-header h3 { 
+    margin: 0; 
+    color: #333; 
+}
+
+.company-meta { 
+    font-style: italic; 
+    color: #666; 
+    margin-bottom: 0.5rem; 
+}
+
+/* Sections and Links */
+section { 
+    margin-top: 1.5rem; 
+}
+
+.forward-back-link { 
+    font-size: 2rem; 
+    text-decoration: none; 
+}
+
+/* Achievement tags used in the experience file */
+.achievement-tag {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+footer {
+    margin-top: 3rem;
+}

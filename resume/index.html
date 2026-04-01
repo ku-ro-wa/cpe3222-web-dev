@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <button id="dark-mode-toggle" class="dark-mode-toggle">🌙 Dark</button>
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+    </nav>
 
     <header>
         <div>
@@ -18,7 +22,7 @@
 	<img src="resume_pic.png" alt="default_pfp.jpg" class="photo">
     </header>
 
-    <section>
+    <section id="education">
         <h2>EDUCATION</h2>
         <div class="job-entry">
             <strong>University of San Carlos</strong>
@@ -31,7 +35,7 @@
         </ul>
     </section>
 
-    <section>
+    <section id="experience">
         <h2>EXPERIENCE</h2>
         <span><a href="experience.html" class="forward-back-link">(Click for Details)</a></span>
         <div class="job-entry">
@@ -55,7 +59,7 @@
         </ul>
     </section>
 
-    <section>
+    <section id="projects">
         <h2>PROJECTS</h2>
         <div class="job-entry">
             <strong>Waku - Personal Career Recommender</strong>
@@ -67,7 +71,7 @@
         </ul>
     </section>
 
-    <section>
+    <section id="skills">
         <h2>SKILLS</h2>
         <p><strong>Technical:</strong> C, HTML5, CSS3 (Bootstrap5, Sakura), JavaScript, Python, SQLite3, GitHub.</p>
         <p><strong>Soft:</strong> Communication, Problem Solving, Collaboration, Adaptability, Critical Thinking.</p>
@@ -78,5 +82,8 @@
         <hr>
     </footer>
 
+    <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">↑ Top</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
